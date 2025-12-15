@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>悅納蔬食生活館 | Injoy</title>
+    <meta name="description" content="悅納蔬食生活館 - 位於台北板橋全素餐廳。用純淨滋養，一起成為會生活的生命。">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@400;700&family=Zen+Maru+Gothic:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay">
+        <ul class="mobile-nav-links">
+            <li><a href="#about">關於悅納</a></li>
+            <li><a href="#menu">美味菜單</a></li>
+            <li><a href="#space">空間氛圍</a></li>
+            <li><a href="#contact">聯絡我們</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <!-- Floating Logo for Hero -->
+        <div class="hero-logo">悅納 Injoy</div>
+
+        <div class="hero-bg">
+            <!-- Placeholder for hero image. Replace with a real image of warm dining scene + natural light -->
+            <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=1974&auto=format&fit=crop"
+                alt="悅納溫馨用餐環境" class="hero-img">
+            <div class="hero-overlay"></div>
+        </div>
+
+        <div class="container hero-content">
+            <h1 class="brand-title fade-in-up">悅納</h1>
+            <p class="brand-slogan fade-in-up delay-1">用純淨滋養，一起成為會生活的生命</p>
+            <p class="brand-sub-slogan fade-in-up delay-2">把生活，過成喜歡的樣子</p>
+
+            <div class="hero-actions fade-in-up delay-3">
+                <a href="#about" class="btn btn-primary">認識悅納</a>
+                <a href="#menu" class="btn btn-outline">查看菜單</a>
+            </div>
+        </div>
+
+        <div class="scroll-indicator fade-in-up delay-4">
+            <span>Scroll</span>
+            <div class="line"></div>
+        </div>
+    </header>
+
+    <!-- Navigation (Moved below Hero) -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">悅納 Injoy</a>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#about">關於悅納</a></li>
+                <li><a href="#menu">美味菜單</a></li>
+                <li><a href="#space">空間氛圍</a></li>
+                <li><a href="#contact">聯絡我們</a></li>
+                <li><a href="#contact" class="btn btn-sm btn-primary">立即訂位</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title fade-in-up">關於悅納</h2>
+                <p class="section-subtitle fade-in-up delay-1">三個核心，一份心意</p>
+            </div>
+
+            <div class="about-tabs fade-in-up delay-2">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-tab="choice">選擇</button>
+                    <button class="tab-btn" data-tab="comfort">自在</button>
+                    <button class="tab-btn" data-tab="heart">心意</button>
+                </div>
+
+                <div class="tab-content">
+                    <!-- Tab 1: Choice -->
+                    <div class="tab-pane active" id="choice">
+                        <div class="about-card">
+                            <div class="about-text">
+                                <h3>選擇｜提供身體需要的</h3>
+                                <p>來到悅納，你會發現『純淨』其實很簡單，就是讓身體重新深呼吸。我們幫你把關，洗去多餘的負擔，留下食材最原本的美好。</p>
+                            </div>
+                            <div class="about-image">
+                                <img src="https://images.unsplash.com/photo-1540420773420-3366772f4999?q=80&w=1000&auto=format&fit=crop"
+                                    alt="新鮮蔬菜食材">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tab 2: Comfort -->
+                    <div class="tab-pane" id="comfort">
+                        <div class="about-card">
+                            <div class="about-text">
+                                <h3>自在｜如家一樣的溫馨</h3>
+                                <p>空間是生活的容器。悅納想做的，就是個讓你覺得『像家』的地方。溫暖的色調、剛剛好的光線，幸福不在遠方，它在一碗熱湯的溫暖中。</p>
+                            </div>
+                            <div class="about-image">
+                                <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=1000&auto=format&fit=crop"
+                                    alt="溫馨店內空間">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tab 3: Heart -->
+                    <div class="tab-pane" id="heart">
+                        <div class="about-card">
+                            <div class="about-text">
+                                <h3>心意｜時間熬出的清甜</h3>
+                                <p>這裡的料理，沒有捷徑，只有時間。我們慢火細燉，喚醒食物天然的風味；用手作的溫度，傳遞一份想好好款待你的心意。</p>
+                            </div>
+                            <div class="about-image">
+                                <img src="https://images.unsplash.com/photo-1547592180-85f173990554?q=80&w=1000&auto=format&fit=crop"
+                                    alt="慢火熬煮湯品">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="section menu-section" id="menu">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title fade-in-up">菜單精選</h2>
+                <p class="section-subtitle fade-in-up delay-1">純淨食材，手作美味</p>
+            </div>
+
+            <div class="menu-grid fade-in-up delay-2">
+                <!-- Card 1 -->
+                <div class="menu-card">
+                    <div class="menu-img">
+                        <img src="https://images.unsplash.com/photo-1547592166-23acbe3a624b?q=80&w=1000&auto=format&fit=crop"
+                            alt="暖心湯麵">
+                    </div>
+                    <div class="menu-info">
+                        <h3>暖心湯麵</h3>
+                        <p>以五行蔬菜高湯為底，鮮甜回甘，溫暖你的胃。</p>
+                        <div class="menu-tags">
+                            <span>#五行蔬菜湯底</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="menu-card">
+                    <div class="menu-img">
+                        <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=1000&auto=format&fit=crop"
+                            alt="招牌飯食">
+                    </div>
+                    <div class="menu-info">
+                        <h3>招牌飯食</h3>
+                        <p>茶香梅乾扣猴菇飯、XO醬拌飯，經典美味再現。</p>
+                        <div class="menu-tags">
+                            <span>#招牌必點</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="menu-card">
+                    <div class="menu-img">
+                        <img src="https://images.unsplash.com/photo-1593001872095-7d5b3868cb19?q=80&w=1000&auto=format&fit=crop"
+                            alt="手作小品">
+                    </div>
+                    <div class="menu-info">
+                        <h3>手作小品</h3>
+                        <p>胡麻豆腐、柴燒豆包、杏鮑菇排，精緻佐餐。</p>
+                        <div class="menu-tags">
+                            <span>#手作溫度</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="menu-card">
+                    <div class="menu-img">
+                        <img src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?q=80&w=1000&auto=format&fit=crop"
+                            alt="咖啡甜點">
+                    </div>
+                    <div class="menu-info">
+                        <h3>咖啡甜點</h3>
+                        <p>飯後一杯香醇咖啡，配上純素甜點，完美句點。</p>
+                        <div class="menu-tags">
+                            <span>#下午茶</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="menu-card">
+                    <div class="menu-img">
+                        <img src="https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?q=80&w=1000&auto=format&fit=crop"
+                            alt="冷凍商品">
+                    </div>
+                    <div class="menu-info">
+                        <h3>冷凍商品</h3>
+                        <p>年菜、生鮮包、納福圓，把悅納的美味帶回家。</p>
+                        <div class="menu-tags">
+                            <span>#宅配美食</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-lg fade-in-up delay-3">
+                <a href="#contact" class="btn btn-primary">查看完整菜單</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Space/Gallery Section -->
+    <section class="section space-section" id="space">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title fade-in-up">空間氛圍</h2>
+                <p class="section-subtitle fade-in-up delay-1">幸福不在遠方，它在一碗熱湯的溫暖中</p>
+            </div>
+
+            <div class="gallery-container fade-in-up delay-2">
+                <div class="gallery-scroll">
+                    <!-- Gallery Item 1 -->
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1554679665-f5537f187268?q=80&w=1000&auto=format&fit=crop"
+                            alt="店內全景">
+                    </div>
+                    <!-- Gallery Item 2 -->
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=1000&auto=format&fit=crop"
+                            alt="座位區">
+                    </div>
+                    <!-- Gallery Item 3 -->
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1466637574441-749b8f19452f?q=80&w=1000&auto=format&fit=crop"
+                            alt="門口小花園">
+                    </div>
+                    <!-- Gallery Item 4 -->
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?q=80&w=1000&auto=format&fit=crop"
+                            alt="餐點擺盤">
+                    </div>
+                    <!-- Gallery Item 5 -->
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1507914372368-b2b085b925a1?q=80&w=1000&auto=format&fit=crop"
+                            alt="窗邊自然光">
+                    </div>
+                </div>
+                <div class="gallery-hint">← 左右滑動欣賞更多 →</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info & Contact Section -->
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Info Column -->
+                <div class="contact-info fade-in-up">
+                    <h2 class="section-title">營業資訊</h2>
+                    <p class="section-subtitle mb-md">期待您的光臨</p>
+
+                    <div class="info-table-wrapper">
+                        <table class="info-table">
+                            <thead>
+                                <tr>
+                                    <th>時段</th>
+                                    <th>營業時間</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>午餐</td>
+                                    <td>11:30 - 14:00</td>
+                                </tr>
+                                <tr>
+                                    <td>下午茶</td>
+                                    <td>14:30 - 16:30</td>
+                                </tr>
+                                <tr>
+                                    <td>晚餐</td>
+                                    <td>17:30 - 20:00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="order-methods mt-md">
+                        <h3>訂餐方式</h3>
+                        <div class="methods-icons">
+                            <div class="method-item">
+                                <span class="method-icon">🍽️</span>
+                                <span>現場用餐</span>
+                            </div>
+                            <div class="method-item">
+                                <span class="method-icon">📱</span>
+                                <span>線上點餐</span>
+                            </div>
+                            <div class="method-item">
+                                <span class="method-icon">🛵</span>
+                                <span>外送平台</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="address-box mt-md">
+                        <p><strong>地址：</strong>新北市板橋區文聖街（鄰近捷運江子翠站）</p>
+                        <p><strong>電話：</strong>(02) 2250-XXXX</p>
+                    </div>
+                </div>
+
+                <!-- Map Column -->
+                <div class="contact-map fade-in-up delay-2">
+                    <!-- Google Maps Placeholder -->
+                    <div class="map-frame">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.006967735345!2d121.46820237604991!3d25.033835538290743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a87a716c026d%3A0x6c243606f23f6631!2z5p2_5qGl5bee5riv5a2Q57ug56uZ!5e0!3m2!1szh-TW!2stw!4v1700000000000!5m2!1szh-TW!2stw"
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h3>悅納 Injoy</h3>
+                <p>用純淨滋養，一起成為會生活的生命</p>
+            </div>
+
+            <div class="footer-links">
+                <a href="#about">關於我們</a>
+                <a href="#menu">美味菜單</a>
+                <a href="#space">空間氛圍</a>
+                <a href="#contact">聯絡資訊</a>
+            </div>
+
+            <div class="footer-social">
+                <a href="#" aria-label="Facebook">FB</a>
+                <a href="#" aria-label="Instagram">IG</a>
+                <a href="#" aria-label="Line">Line</a>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>&copy; 2025 悅納蔬食生活館 All Rights Reserved.</p>
+        </div>
+    </footer>
